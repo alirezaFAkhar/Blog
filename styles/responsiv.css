@@ -1,0 +1,82 @@
+@media screen and (max-width: 1200px) {
+  .wolf .wolf-content p {
+    width: 500px;
+  }
+  .monkey .monkey-title {
+    text-align: right;
+  }
+  .sky {
+    height: 800px;
+  }
+  footer .overlay {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+  }
+  footer {
+    background-position: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  header#header {
+    height: 700px;
+  }
+  .wolf .wolf-content p {
+    width: 350px;
+  }
+  footer {
+    background-position: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  header#header {
+    height: 600px;
+  }
+  .moon {
+    width: 100px;
+  }
+  .wolf .wolf-content p {
+    display: none;
+  }
+  .monkey .monkey-title {
+    text-align: center;
+    color: #fff;
+  }
+  .monkey .monkey-content p {
+    width: 400px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  header#header {
+    height: 450px;
+  }
+  .moon {
+    width: 60px;
+    top: 85%;
+  }
+  footer .overlay .footer-title {
+    width: 100%;
+  }
+  footer .overlay .container {
+    width: 100%;
+  }
+  .wolf .wolf-content p {
+    width: 90%;
+  }
+  .monkey .monkey-content p {
+    width: 90%;
+  }
+  footer .overlay .description {
+    width: 100%;
+  }
+  footer .overlay form {
+    width: 100%;
+  }
+  footer .overlay form input {
+    padding: 2px;
+  }
+  footer .overlay form button {
+    padding: 5px;
+  }
+}
